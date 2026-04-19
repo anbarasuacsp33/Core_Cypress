@@ -1,28 +1,28 @@
 {
-  "name": "cypress_workshop_03292026_00",
+  "name": "core_cypress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbarasuacsp33/Core_Cypress.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anbarasuacsp33/Core_Cypress/issues"
+  },
+  "homepage": "https://github.com/anbarasuacsp33/Core_Cypress#readme",
   "devDependencies": {
-    "@types/mocha": "^10.0.10",
-    "cypress": "^15.13.0",
-    "cypress-mochawesome-reporter": "^4.0.2",
+    "@types/node": "^25.6.0",
+    "cypress": "^15.14.0",
     "cypress-xpath": "^2.0.1",
     "ts-node": "^10.9.2",
-    "typescript": "5.4"
-  },
-  "dependencies": {
-    "mocha": "^11.7.5"
-  },
-    "overrides": {
-    "serialize-javascript": "^8.0.1",
-    "diff": "^5.1.0"
+    "typescript": "^6.0.3"
   }
 }
